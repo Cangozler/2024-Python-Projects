@@ -38,7 +38,7 @@ class WeatherApp:
         # English: Gets the city information entered by the user.
         city = self.entry_city.get().strip()
         if city:
-            API_KEY = "faac498d6c8fa5ff2067ed034bb76bd4"
+            API_KEY = ""
             api_url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_KEY}&units=metric"
 
             try:
