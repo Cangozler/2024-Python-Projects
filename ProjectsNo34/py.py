@@ -6,9 +6,9 @@ import requests
 
 # Reddit API kimlik bilgilerini gir
 reddit = praw.Reddit(
-    client_id="n0BUs1H053B_cmZTATATvg",
-    client_secret="JCYq3Zr_4QcVHJsrxVYhgHW-_Bv-0A",
-    user_agent="MyRedditApp/1.0 (by Prestigious_Leg5895 )"
+    client_id="",
+    client_secret="-_Bv-0A",
+    user_agent=""
 )
 
 # Tkinter penceresini oluştur
